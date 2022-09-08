@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-06T08:50:52 IST" name="Default suite" finished-at="2022-09-06T08:51:15 IST" duration-ms="23453">
+    <groups>
+    </groups>
+    <test started-at="2022-09-06T08:50:52 IST" name="Default test" finished-at="2022-09-06T08:51:15 IST" duration-ms="23453">
+      <class name="TestCases.LoginTest">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:TestCases.LoginTest@793f29ff]" started-at="2022-09-06T08:50:52 IST" name="invokeBrowser" finished-at="2022-09-06T08:51:05 IST" duration-ms="12480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="positiveLogin()[pri:0, instance:TestCases.LoginTest@793f29ff]" started-at="2022-09-06T08:51:05 IST" name="positiveLogin" description="This is to test valid login" finished-at="2022-09-06T08:51:06 IST" duration-ms="1586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.LoginTest@793f29ff]" started-at="2022-09-06T08:51:06 IST" name="closeBrowser" finished-at="2022-09-06T08:51:07 IST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:TestCases.LoginTest@793f29ff]" started-at="2022-09-06T08:51:07 IST" name="invokeBrowser" finished-at="2022-09-06T08:51:14 IST" duration-ms="6353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="negativeLogin()[pri:1, instance:TestCases.LoginTest@793f29ff]" started-at="2022-09-06T08:51:14 IST" name="negativeLogin" description="This is to test invalid login" finished-at="2022-09-06T08:51:15 IST" duration-ms="1171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.LoginTest@793f29ff]" started-at="2022-09-06T08:51:15 IST" name="closeBrowser" finished-at="2022-09-06T08:51:15 IST" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
